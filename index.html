@@ -1,0 +1,172 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>my protfolio website</title>
+
+<link rel="stylesheet" href="css/style.css">
+
+<link rel="stylesheet" href="css/all.min.css">
+
+</head>
+<body>
+    <header>
+            
+     <nav>
+         <div class="navicon">
+              <h3>mohammed</h3>
+         </div>
+            <i class="fa fa-bars" id="menu"></i>
+        <ul>
+
+            <li class="before">
+                <a href="#">home</a>
+            </li>
+            <li class="before">
+                <a href="#services">services</a>
+            </li>
+          
+            <li class="before">
+                <a href="#about">about</a>
+            </li>
+          
+            <li class="before">
+                <a href="#contact">contact me</a>
+            </li>
+          
+        </ul>
+       
+    </nav>
+
+</header>
+
+<!-- </div> -->
+
+<div class="myinfo">
+ <div class="intr">
+    <h2>i'm mohammed <span>haidara</span></h2>
+    <p>this is my protfolio website
+        <br>i want to be a fullstack developer
+    </p>
+ </div>
+
+    <div class="myimg">
+        <img src="pics/1.jpg" alt="">
+    </div>
+
+</div>
+
+<div id="services" class="content">
+
+    <h1>services</h1>
+    <p>Lorem, ipsum dolor sit amet consectetur 
+       <br> adipisicing elit. Porro, itaque.</p>
+
+<div class="csstips">
+    <img src="pics/7.jpg" class="">
+</div>
+
+<div class="cssimg">
+    <img src="pics/6.jpg" alt="">
+    <img src="pics/5.jpg" alt="">
+    <img src="pics/4.jpg" alt="">
+    <img src="pics/3.jpg" alt="">
+    <img src="pics/2.jpg" alt="">
+    <img src="pics/2.jpg" alt="">
+</div>
+
+    <p id="pp">Lorem, ipsum dolor sit amet consectetur 
+        <br> adipisicing elit. Porro, itaque.</p>
+</div>
+
+
+<div class="comint">
+
+  <form id="lab" class="form" action="#">
+
+   <h2>leave a comment</h2>
+    <br>
+
+<input class="text" type="text" placeholder="Enter Name">
+<br>
+<input class="email" type="email" placeholder="Enter Email">
+<br>
+<input class="text-area" type="text-area" placeholder="Enter comment">
+
+<br>
+<button><a href="">send comment</a></button>
+
+  </form>
+
+</div>
+
+<div id="contact" class="contact">
+    <h1>contact us</h1>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+        <br> Impedit minima et dolorum.</p>
+
+        <div class="cta">
+            <div class="address">
+                <h3>our address</h3>
+           
+                <span>yemen,al-dhala,damt</span>
+    
+                <h3>phone</h3>
+                <span>+967711866552</span>
+    
+                <h3>Email</h3>
+                <span>mohammed@gmail.com</span>
+            </div>
+          
+            <form id="lab" class="form2" action="#">
+                 
+             <input class="text" type="text" placeholder="Enter Name">
+             <br>
+             <input class="email" type="email" placeholder="Enter Email">
+             <br>
+             <input class="text-area" type="text-area" placeholder="Enter comment">
+             
+             <br>
+             <button><a href="">send </a></button>
+             
+               </form>
+        </div>
+</div>
+
+<div id="about" class="about">
+
+<h1>about us</h1>
+<p>Lorem ipsum dolor sit amet 
+     consectetur adipisicing elit. <br>
+     Temporibus quibusdam magni id ea <br> voluptate. Nemo?</p>
+
+     <div class="icons">
+
+        <i class="fa-brands fa-facebook"></i>
+        <i class="fa-brands fa-twitter"></i>
+        <i class="fa-brands fa-instagram"></i>
+        <i class="fa-brands fa-linkedin"></i>
+
+     </div>
+
+     <p>made by mohammed haidara</p>
+
+</div>
+
+
+<script>
+    let menu=document.querySelector('#menu');
+    let navlinks=document.querySelector('header nav ul');
+
+    menu.onclick = ()=>{
+       
+        menu.classList.toggle('fa-times');
+       
+        navlinks.classList.toggle('open');
+    }
+</script>
+
+</body>
+       
+</html>
